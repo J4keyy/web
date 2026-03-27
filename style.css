@@ -1,0 +1,47 @@
+body {
+  background: #000000 url("bg.gif");
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  image-rendering: pixelated;
+  font-family: 'Space Mono';
+}
+
+content {
+    overflow: auto;
+    border-color: white;
+    border-style: dashed;    
+    width: 500px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+.contentdiv {
+    text-align:center
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+header p {
+    text-align: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descriptiondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
