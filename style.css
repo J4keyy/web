@@ -1,5 +1,7 @@
 body {
-  background: #000000 url("bg.gif");
+  background: #000000 url("a9vjztlbnys71.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   margin: 0 auto;
   padding: 0;
@@ -14,7 +16,7 @@ content {
     width: 700px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 50px;
+    margin-top: 25px;
     text-align:left
 }
 
@@ -39,6 +41,7 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .descriptiondiv {
@@ -52,3 +55,7 @@ header p {
   height: 0;
 }
 
+.headingdiv {
+    display: flex;
+
+}
